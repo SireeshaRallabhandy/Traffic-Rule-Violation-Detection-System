@@ -1,4 +1,4 @@
-# Twitter-Scraping-For-Latest-Cloud-News
+# Traffic-Rule-Violation-Detection-System
 
     from openalpr import Alpr
     from argparse import ArgumentParser
