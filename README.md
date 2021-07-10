@@ -35,7 +35,7 @@ try:
     else:
         print("Using OpenALPR " + alpr.get_version())
 
-        cap = cv2.VideoCapture("C:/Users/SrijaRallabhandy/Downloads/1.webm")
+        cap = cv2.VideoCapture("C:/Users/SireeshaRallabhandy/Downloads/1.webm")
         bg_subtractor = cv2.createBackgroundSubtractorMOG2(history=500, detectShadows=True)
         print ('Training BG Subtractor...')
         cv2.namedWindow('op', cv2.WINDOW_NORMAL)
